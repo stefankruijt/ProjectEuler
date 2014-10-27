@@ -11,8 +11,8 @@ public class SolutionTest {
     @Test
     public void testSolution() {
         int answer = Solution.solution();
-        log.info("Solution for problen #1 is: " + answer);
-        Assert.assertEquals(233168, Solution.solution());
+        log.info("Solution for problem #1 is: " + answer);
+        Assert.assertEquals(233168, answer);
     }
 
     @Test
