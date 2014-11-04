@@ -9,7 +9,7 @@ public class Solution {
 
    public static long Solution(long number) {
       for(long n = (long) Math.floor(Math.sqrt(number)); n>1; n--) {
-         if(isPrime(n)) {
+         if(isPrime(n) && number%n==0) {
             return n;
          }
       }

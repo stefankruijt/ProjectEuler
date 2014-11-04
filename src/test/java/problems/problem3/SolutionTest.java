@@ -11,7 +11,7 @@ public class SolutionTest {
    @Test
    public void testAnswer() {
       Assert.assertEquals(Solution.Solution(600851475143L), 6857L);
-      Assert.assertEquals(Solution.Solution(24L), 12);
+      Assert.assertEquals(Solution.Solution(25L), 5);
    }
 
    @Test
