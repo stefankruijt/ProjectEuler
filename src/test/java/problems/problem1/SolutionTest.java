@@ -9,14 +9,24 @@ public class SolutionTest {
     static Logger log = Logger.getLogger(SolutionTest.class.getName());
 
     @Test
-    public void testSolution() {
-        int answer = Solution.solution();
-        log.info("Solution for problem #1 is: " + answer);
+    public void testSolution1() {
+        long timeBefore = System.currentTimeMillis();
+        int answer = Solution.solution1(1000);
+        long timeAfter = System.currentTimeMillis();
+
+        log.info("Solution1 took " + (timeAfter - timeBefore) + " millisecond");
+
         Assert.assertEquals(233168, answer);
     }
 
     @Test
-    public void testWrongSolution() {
-        Assert.assertFalse(Solution.solution() == 50);
+    public void testSolution2() {
+        long timeBefore = System.currentTimeMillis();
+        int answer = Solution.solution2(1000);
+        long timeAfter = System.currentTimeMillis();
+
+        log.info("Solution2 took " + (timeAfter - timeBefore) + " millisecond");
+
+        Assert.assertEquals(233168, answer);
     }
 }
