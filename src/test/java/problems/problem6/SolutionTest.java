@@ -10,9 +10,7 @@ public class SolutionTest {
 
    @Test
    public void testAnswer() {
-      long answer = Solution.Solution();
-      System.out.println("The solution is: " + answer);
-
-      Assert.assertEquals(answer, 25164150);
+       Assert.assertEquals(Solution.Solution(10), 2640);
+       Assert.assertEquals(Solution.Solution(100), 25164150);
    }
 }
