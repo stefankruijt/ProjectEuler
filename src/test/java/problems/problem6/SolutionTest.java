@@ -1,4 +1,4 @@
-package problems.problem5;
+package problems.problem6;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
@@ -13,6 +13,6 @@ public class SolutionTest {
       long answer = Solution.Solution();
       System.out.println("The solution is: " + answer);
 
-      Assert.assertEquals(answer, 232792560);
+      Assert.assertEquals(answer, 25164150);
    }
 }
