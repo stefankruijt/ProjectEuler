@@ -1,4 +1,4 @@
-package problems.problem1;
+package problem1;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

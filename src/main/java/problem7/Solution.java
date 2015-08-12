@@ -1,4 +1,4 @@
-package problems.problem7;
+package problem7;
 
 public class Solution {
     // We're going to search for the N st prime number

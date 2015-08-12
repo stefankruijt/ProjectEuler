@@ -1,8 +1,5 @@
-package problems.problem1;
+package problem1;
 
-import java.sql.Time;
-import java.util.List;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 /**

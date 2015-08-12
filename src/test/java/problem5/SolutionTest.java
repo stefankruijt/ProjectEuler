@@ -1,4 +1,4 @@
-package problems.problem5;
+package problem5;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;

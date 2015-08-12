@@ -1,3 +1,3 @@
 ProjectEuler
 ============
-This project contains my answers/unit tests (Java) for programming challenges I did on https://projecteuler.net/
+This project contains my answers for programming challenges of https://projecteuler.net/
