@@ -1,6 +1,6 @@
 package problem10;
 
-import Helpers.PrimeUtil;
+import Helpers.NumberUtil;
 
 public class Solution {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class Solution {
     public Solution() {
         long result = 0;
         for(int i=2; i<MAX_PRIME; i++) {
-            if(PrimeUtil.isPrime(i)) {
+            if(NumberUtil.isPrime(i)) {
                 result += i;
                 System.out.println("Prime found: " + i);
             }
